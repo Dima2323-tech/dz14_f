@@ -1,0 +1,43 @@
+.banner {
+	padding: 100px 0;
+	background-color: #e3dddd;
+	.banner-left {
+		width: 50%;
+	}
+	.banner_video {
+		width: 50%;
+	}
+	.banner__title {
+		color: black;
+		text-align: left;
+		font-size: 36px;
+		h2 {
+			text-transform: uppercase;
+		}
+	}
+	.banner__title_text {
+		max-width: 500px;
+		margin-top: 10px;
+	}
+	.banner_container_button {
+		padding: 10px;
+		background: #f70f22;
+		border: none;
+		cursor: pointer;
+		border-radius: 5px;
+		max-width: 225px;
+		text-align: center;
+		font-weight: bold;
+		margin-top: 50px;
+		a {
+			color: white;
+			font-size: var(--font-size-lg);
+			text-decoration: none;
+		}
+	}
+	.banner__list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+

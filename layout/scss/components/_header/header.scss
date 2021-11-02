@@ -1,0 +1,32 @@
+header {
+	background-color: #e3dddd;
+	padding-top: 20px;
+	.header-content {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: black;
+		max-width: 1250px;
+	}
+	nav {
+		ul {
+			
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: flex;
+		}
+		a {
+			color: white;
+			text-decoration: none;
+			text-transform: uppercase;
+			padding: 20px;
+			&:hover {
+				transition: .4s;
+				background: var(--main-site-color);
+				color: white;
+				width: 100%;
+			}
+		}
+	}
+}

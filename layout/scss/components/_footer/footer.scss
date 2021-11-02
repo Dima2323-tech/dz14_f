@@ -1,0 +1,30 @@
+footer {
+	background-color: rgb(49,48,48);
+	margin: 0 auto;
+}
+.Footer {
+	.social_dots {
+		margin: 50px 165px 25px 0;
+		ul {
+			padding: 0;
+			list-style: none;
+			display: flex;
+			justify-content: space-between;
+		}
+		a {
+			color: #ffffff;
+			text-decoration: none;
+			text-transform: uppercase;
+			margin-right: 25px;
+			&:hover {
+				transition: 0.4s;
+				color: red;
+				width: 100%;
+			}
+		}
+	}
+	.coopyright {
+		color: white;
+		margin: 50px 50px 25px 150px;
+	}
+}

@@ -1,0 +1,97 @@
+.Get_in_touch {
+	position: relative;
+	padding-top: 75px;
+
+	.Get_in_touch-Heading {
+  
+		&::after {
+		  content: "";
+		  display: inline-block;
+		  margin: 0 auto;
+		  width: 180px;
+		  height: 2px;
+		  background-color: #ff2d2d;
+		}
+	
+		.Get_in_touch-Heading__title {
+		  font-size: 42px;
+		  text-transform: uppercase;
+		  font-weight: bold;
+		  padding-bottom: 20px;
+		}
+	
+		.Get_in_touch-Heading__sub-tile {
+		  max-width: 700px;
+		  font-size: 16px;
+		}
+	  }
+	}
+  
+	.Get_in_touch-input {
+	  padding-top: 75px;
+  
+	  .input-name {
+		padding: 20px 40px;
+    	border: none;
+    	background: #e5e5e5;
+    	border-radius: 8px;
+	  }
+	}
+  
+	.Get_in_touch-input_email {
+	  margin-left: 50px;
+  
+	  .input-email {
+		padding: 20px 40px;
+    	border: none;
+    	background: #e5e5e5;
+    	border-radius: 8px;
+	  }
+	}
+  
+	.Get_in_touch-textarea {
+	  padding-top: 45px;
+	  .texarea-message {
+		padding: 10px 45px;
+    	border: none;
+    	background: #e5e5e5;
+    	border-radius: 8px;
+		resize: none;
+	  }
+	}
+  
+	.Get_in_touch-btn {
+	  padding: 45px 0 100px;
+	  .Get_in_touch-btn__btn {
+		padding: 20px 245px;
+		border: none;
+		background: #ff3b3b;
+		border-radius: 8px;
+		color: white;
+		cursor: pointer;
+	  }
+	}
+  
+	.Get_in_touch-info {
+	  background: #2d2d2d;
+	  position: absolute;
+	  top: 270px;
+	  right: 0;
+	  .info {
+		line-height: 3;
+		padding: 120px 300px 115px 75px;
+  
+		.Get_in_touch-info__title {
+		  color: white;
+		  font-size: 18px;
+		  font-weight: 700;
+		  text-transform: uppercase;
+		  padding-bottom: 10px;
+		}
+  
+		.Get_in_touch-info__info {
+		  font-size: 16px;
+		  color: white;
+		}
+	  }
+	}

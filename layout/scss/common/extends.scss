@@ -1,0 +1,31 @@
+.title-text{
+    color: rgb(88, 88, 88);
+    font-size:20px;
+}
+
+.title {
+    @extend .title-text;
+}
+
+.possibilities__title{
+    @extend .title-text;
+}
+.band{
+    border-bottom:2px solid #f00 ;
+    width: 100px;
+    
+}
+.red_band{
+    @extend .band
+}
+.square{
+    width: 290px;
+	height: 290px;
+	background: rgb(245, 240, 221);
+    margin: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.block{
+    @extend .square;
+}

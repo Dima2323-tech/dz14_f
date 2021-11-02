@@ -1,0 +1,29 @@
+body {
+    font-family: var(--main-font-family), sans-serif;
+    /*background-color: rgb(246, 242, 242);*/
+}
+
+
+a {
+    display: inline-block;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.row_about{
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+.product__row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}

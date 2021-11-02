@@ -1,0 +1,87 @@
+.Our_Team {
+	display: block;
+		text-align: left;
+		width: 100%;
+		margin-top: 70px;
+	.Team__Heading {
+		display: block;
+		text-align: left;
+		width: 100%;
+		margin-top: 70px;
+		p {
+			max-width: 455px;
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+	}
+	.left_photo {
+		width: 325px;
+		padding-top: 50px;
+		display: flex;
+		flex-wrap: nowrap;
+		float: left;
+	}
+	.right_wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		padding-top: 50px;
+	}
+	.right_wrapper_heading {
+		margin-left: 70px;
+	}
+	.Team_title_text {
+		margin: 25px 0 25px 0;
+	}
+	.social_nav {
+		ul {
+			padding: 0;
+			list-style: none;
+			display: flex;
+			justify-content: flex-start;
+		}
+	}
+}
+.social_nav {
+	nav {
+		a {
+			color: #585858;
+			text-decoration: none;
+			text-transform: uppercase;
+			margin: 15px 40px 15px 0;
+			font-style: italic;
+			&:hover {
+				transition: 0.4s;
+				color: red;
+				width: 100%;
+			}
+		}
+	}
+}
+.card_photo {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1250px;
+	justify-content: center;
+	.block_photo_text{
+		display: flex;
+		flex-wrap: wrap;
+		&:hover {
+			transition: 0.4s;
+			background-color: black;
+			color: white;
+		}
+	}
+	.block {
+		width: 175px;
+		height: 200px;
+		background: rgb(245, 240, 221);
+		margin: 10px;
+		display: flex;
+		flex-wrap: nowrap;
+	.text__wrapper {
+		margin-left: 50px;
+		padding: 170px 0 20px 0 ;
+	}
+}
+}

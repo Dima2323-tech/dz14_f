@@ -1,0 +1,48 @@
+.Mailing {
+	margin-top: 115px;
+	.Mailing_bg{
+	  background: #f5f0dd;
+  
+	  .Mailing_Title{
+		line-height: 2;
+		text-align: center;
+  
+		.mailing_title__title {
+		  padding-top: 140px;
+		  font-weight: 700;
+		  color: white;
+		  font-size: 40px;
+		}
+  
+		.mailing_title__sub-title {
+		  color: white;
+		  font-size: 14px;
+		}
+	  }
+	  .Mailin_btn_input {
+		padding: 75px 0 140px 0;
+		display: flex;
+		justify-content: center;
+	  }
+	  .input-mail {
+		border: white;
+		padding:21px 307px;
+		border-radius: 10px;
+		padding-left:25px ;
+	  }
+  
+	  .Mailing_btn {
+		padding: 0 0 0 20px;
+	  }
+  
+	   .btn_mail {
+		padding: 18px 29px;
+		border-radius: 5px;
+		border: 2px solid #ff2d2d;
+		background: #ff2d2d;
+		cursor: pointer;
+		color: white;
+	  }
+	}
+  }
+  

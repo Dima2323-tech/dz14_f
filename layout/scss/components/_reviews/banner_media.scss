@@ -1,0 +1,29 @@
+
+
+@media(max-width: 1250px) {
+    header {
+        display: none;
+    }
+
+    .banner .banner__list .banner__item {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .banner .banner__list .banner__item-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner .banner__item .banner__avatar {
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+
+    .banner .banner__item .banner__text {
+        width: 100%;
+        text-align: center;
+    }
+
+}

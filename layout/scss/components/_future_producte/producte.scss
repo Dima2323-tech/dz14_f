@@ -1,0 +1,42 @@
+.Products {
+	.heading {
+		display: block;
+		text-align: center;
+		width: 100%;
+		p {
+			max-width: 515px;
+			margin-top: 25px;
+			margin-left: 360px;
+		}
+	}
+	.red_band {
+		margin-left: 575px;
+		padding-top: 25px;
+	}
+	.product_nav {
+		ul {
+			padding-left: 250px;
+			list-style: none;
+			display: flex;
+			justify-content: space-between;
+		}
+			a {
+				color: rgb(88, 88, 88);
+				text-decoration: none;
+				text-transform: uppercase;
+				margin: 15px 60px 15px 0;
+				font-weight: 600;
+				&:hover {
+					transition: 0.4s;
+					color: red;
+					width: 100%;
+				}
+			}
+		}
+	}
+	.Product_Blocks {
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 1250px;
+		justify-content: center;
+	}

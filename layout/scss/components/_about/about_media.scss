@@ -1,0 +1,27 @@
+@media (max-width: 1250px) {
+	header {
+		display: none;
+	}
+	.About_us {
+		.banner__item {
+			width: 100%;
+			padding-right: 0;
+			padding-left: 0;
+		}
+		.banner__item-wrapper {
+			flex-direction: column;
+			align-items: center;
+		}
+		.possibilities__item {
+			.possibilities__avatar {
+				padding-right: 0;
+				padding-bottom: 20px;
+			}
+			.possibilities__text {
+				width: 100%;
+				text-align: center;
+
+			}
+		}
+	}
+}
